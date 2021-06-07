@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="scripts/script.js" defer>
+    
+    </script>
+</head>
+<body>
+    
+   <h1> Mon avis </h1>
+    <ul>
+       
+     <h4> Rien que pour vous </h4>     
+        
+        
+        
+        
+        
+    <li id='q1'> <h6> CARLA </h6> </li>
+        
+    <h2> 
+    <p id='r1'>   Tes une connasse, bah biensur, mais je t'aime bien <br> 
+        
+          <br>
+   
+        
+        </p>   
+        </h2>
+        
+        <br>
+        
+    <li id='q2'> <h6>LOUIS </h6> </li>
+        <br>
+      <h2>
+          <p id='r2'> On va pas se le cacher que t'était un petit charo avant mais ca va maintenant tu tes poser avec princesse ta capté maintenant, gg gros
+        <br>
+        
+              
+        </p>
+        
+          
+        </h2>
+        
+    <li id='q3'> <h6>ELLIOT</h6> </li>
+        <br>
+     <h2> <h3> 
+         <p id='r3'>
+             Tes un reuf meme si j'avoue que quelque fois tu me soule parce que tu veux toujours avoir raison mais javoue que tes asser fort en histoire mais tu pourras jamais dire que la générale et la pro c'est pareille  
+        
+        <br>
+         </p>
+         </h3>
+        </h2>
+        
+        
+    
+    <li id='q4'> <h6> LORENA</h6> </li>
+    
+  <h2> 
+      <p id='r4'> Tes une groupie, JE RIGOLE, t'énerve pas mon reuf, en vrai j'avoue tes cool, j'avais quand une sacré fierté vu que j'étais le seul qui avait concquis ton coeur en primaire AHAHAH
+    </p>
+    </h2>
+        <br>
+    
+    <li id='q5'> <h6>julie </h6> <h5> pro minecraft</h5> </li>
+    <br>
+    
+    <h2>   
+        <p id='r5'> j'avoue tes forte a minecraft mais tu sais pas trop protéger un lit en bedwars, mais tkt tes forte quand meme 
+        
+        </p>
+     
+        </h2>
+    </ul>
+        
+        
+</body>
+</html>
+
+
+
+h1{
+    display:block;
+    text-align: center;
+    font-size:  3vw; 
+    color: yellow;
+    text-shadow: 0.2vw 0.2vw 0.5vw black;
+    border-style: ridge;
+    height: 20vw;
+    width:60vw;
+    line-height: 20vw;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 90vw;
+    background-image:url(https://data.photofunky.net/output/image/5/7/7/6/577605/photofunky.gif);
+    background-size: 800px ;
+    background-position: center;
+}
+li{
+    display:block;
+    text-align: center;
+    font-size: 2vw; 
+    color: orangered;
+    text-shadow: 0.2vw 0.2vw 0.5vw black;
+    border-bottom-style: outset;
+    background-color: rgba(black);
+}
+
+li:hover{
+    background-color: rgba(royalblue);
+    border-style: inset;
+    color: white
+    
+    
+}
+
+h2{
+  
+    display: block;
+    text-align: center;
+    font-size: 1vw; 
+    color: red;
+    text-shadow: 0.2vw 0.2vw 0.5vw green;
+    
+}
+
+h3{
+    
+     display:block;
+    text-align: center;
+    font-size: 1.5vw; 
+    color: red;
+    text-shadow: 0.2vw 0.2vw 0.5vw green;
+    
+}
+
+h4{
+     border-style: solid;
+    color: red ;
+    text-align: center;
+    
+}
+
+
+html{
+    background-image:  url(https://www.gtfrance.fr/images/localisation-satellite-gt-alarme.jpg);
+    background-size: cover
+
+}
+
+p{
+    display:none;
+    text-align: center;
+    font-size: 2vw;
+    color:yellow;
+    text-shadow: 0.1vw 0.1vw 0.1vw burlywood
+    
+}
+
+h5 {
+    color: yellow
+
+    
+}
+
+h6{
+    border-style: solid
+    font-size: 1.5vw;
+    color: deepskyblue
+    
+}
